@@ -6,6 +6,8 @@ The Dataset that we used is the famous [GTZAN dataset](https://www.kaggle.com/da
 
 The most common way of performing deep learning on audio data is by the use of convolutional architectures on the spectrograms of audio features. By the way, in this project we are trying to model the data as time dependent sequences, for this reason we will use a RNN(Recurrent Neural Network), in particular a **Gated Recurent Unit(GRU)**.
 
+Note: The implementation of the NN is done with *PyTorch*
+
 Below the slides we used to present what we did and the results we achieved.
 
 <img src="https://user-images.githubusercontent.com/109806659/210553365-ea9f974a-268c-48b4-b283-f56e3ea9fa6a.png" width=1000 />
